@@ -47,6 +47,12 @@ public class LoginPage {
 		FileUtils.copyFile(SrcFile, DestFile);
 
 	}
+	
+	public static void equals(String reason, String actual, String expected)  {
+		if (!actual.equalsIgnoreCase(expected)) {
+			throw new RuntimeException(reason);
+	}
+	}
 	}
 	
 

@@ -45,13 +45,18 @@ public void i_enter_and(String email, String password) throws Throwable {
 	page=PageFactory.initElements(driver,LoginPage.class );
 	page.address(email);
 	page.password(password);
-	page.login_Element();
 	page.screenShot(driver,"C:\\Users\\Jyoti\\Desktop\\screen\\test.jpg" );
+}
+@When("^I click on signin button$")
+public void i_click_on_signin_button() throws Throwable {
+	page.login_Element();
 }
 
 @Then("^I must see dashboard Page display$")
 public void i_must_see_dashboard_Page_display() throws Throwable {
-   
+	String expected="ObjectSpy! |";
+	   LoginPage.equals("wrong page ",driver.getTitle(),expected);
+
 }
 }
 

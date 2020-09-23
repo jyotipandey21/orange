@@ -12,7 +12,7 @@ public class Browser {
 	 
 
 		public static WebDriver launch() {
-			System.setProperty("webdriver.chrome.driver", "driver\\chromedriver.exe");
+			System.setProperty("webdriver.chrome.driver", "drivers\\chromedriver.exe");
 			driver=new ChromeDriver();
 			driver.get("https://www.objectspy.com/register/signup.php");
 			driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);

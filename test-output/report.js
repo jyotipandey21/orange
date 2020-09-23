@@ -44,28 +44,28 @@ formatter.match({
   "location": "login.i_am_on_objectspy()"
 });
 formatter.result({
-  "duration": 8865724900,
+  "duration": 8135529800,
   "status": "passed"
 });
 formatter.match({
   "location": "login.i_enter_Username_and_Password()"
 });
 formatter.result({
-  "duration": 584073000,
+  "duration": 258335800,
   "status": "passed"
 });
 formatter.match({
   "location": "login.click_on_signin_button()"
 });
 formatter.result({
-  "duration": 2562147400,
+  "duration": 3810907600,
   "status": "passed"
 });
 formatter.match({
   "location": "login.i_must_see_dashboardpage_Page()"
 });
 formatter.result({
-  "duration": 28900,
+  "duration": 19300,
   "status": "passed"
 });
 formatter.uri("passdata.feature");
@@ -102,7 +102,7 @@ formatter.step({
 });
 formatter.step({
   "line": 7,
-  "name": "click on signin button",
+  "name": "I click on signin button",
   "keyword": "And "
 });
 formatter.step({
@@ -165,7 +165,7 @@ formatter.step({
 });
 formatter.step({
   "line": 7,
-  "name": "click on signin button",
+  "name": "I click on signin button",
   "keyword": "And "
 });
 formatter.step({
@@ -177,7 +177,7 @@ formatter.match({
   "location": "login.i_am_on_objectspy()"
 });
 formatter.result({
-  "duration": 7264937000,
+  "duration": 5373915900,
   "status": "passed"
 });
 formatter.match({
@@ -194,21 +194,21 @@ formatter.match({
   "location": "login.i_enter_and(String,String)"
 });
 formatter.result({
-  "duration": 5484754000,
+  "duration": 869350000,
   "status": "passed"
 });
 formatter.match({
-  "location": "login.click_on_signin_button()"
+  "location": "login.i_click_on_signin_button()"
 });
 formatter.result({
-  "duration": 5091981600,
-  "error_message": "java.lang.NullPointerException\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)\r\n\tat com.sun.proxy.$Proxy16.click(Unknown Source)\r\n\tat page.LoginPage.login_Element(LoginPage.java:37)\r\n\tat steps.login.click_on_signin_button(login.java:35)\r\n\tat ✽.And click on signin button(passdata.feature:7)\r\n",
-  "status": "failed"
+  "duration": 2235839500,
+  "status": "passed"
 });
 formatter.match({
   "location": "login.i_must_see_dashboard_Page_display()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 19846600,
+  "status": "passed"
 });
 });
